@@ -115,7 +115,8 @@ function addSaveButton() {
     }
 
     const saveButton = $(`
-        <div id="manual_save_button" class="menu_button fa-solid fa-floppy-disk interactable" title="保存聊天" tabindex="0">
+        <div id="manual_save_button" class="list-group-item flex-container flexGap5 interactable" title="保存聊天" tabindex="0">
+            <div class="fa-fw fa-solid fa-floppy-disk extensionsMenuExtensionButton"></div>
             <span>保存聊天</span>
         </div>
     `);
